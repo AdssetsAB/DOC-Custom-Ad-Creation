@@ -1,10 +1,10 @@
-#How to create custom ads to be used in ACM
+# How to create custom ads to be used in ACM
 
-[How to add custom events to ads][1]
-[How to add input parameters to ads][2]
+* [How to add custom events to ads](#1)
+* [How to add input parameters to ads](#2)
 
 
-[1]: # How to add custom events to ads
+# <a name="1"></a>How to add custom events to ads
 
 In order to trigger **events** from the Ad and get the engagement mesure triggered derived from that events excute the following steps.
 
@@ -65,7 +65,7 @@ This text will be replaced with a code that will send a message to the tracking 
 
 4. Send the html file to Adssets production team so they can create the single Ad or the Template so you can use it in ACM.
 
-[2]: #How to add input parameters to ads
+# <a name="2"></a>How to add input parameters to ads
 
 In order to add inputs to parametrise your Ad excute the following steps.
 
