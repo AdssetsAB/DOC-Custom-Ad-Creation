@@ -84,7 +84,7 @@ AD Sample: <br/>
 ```
 
 2. On wherever in your code you want to inject a value comming from an input, add the following place the text with the following syntax _\_\_adsscore\_input\<type\_input>\_<name\_of\_input>\_<default\_value>\_\__.
-The types allowed are text and url at the moment. 
+The types allowed are text, image and url at the moment. 
 The names of input allowed should not be longer than 10 characters and contain only alphanumeric characters and blank spaces.
 The default value allowed should not be longer than 80 characters and not contain the character _ without escaping. Ex. use "\_" instead of "_".
  
