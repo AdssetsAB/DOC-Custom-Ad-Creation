@@ -1,0 +1,32 @@
+<html>
+<head></head>
+<body>
+AD Sample: <br/>
+<b>__adsscore_input_text_Message_My text__</b> <br/>
+
+
+<button onclick="sendAction()">Action</button>
+<button onclick="sendAction2()">Action2</button>
+<button onclick="sendClick()">Click</button>
+
+<script>
+
+    function sendAction(){
+        "__adsscore_event_Action__";
+        console.log("Action");
+    }
+
+    function sendAction2(){
+        "__adsscore_event_Action2__";
+        console.log("Action2");
+    }
+
+    function sendClick(){
+        "__adsscore_event_click__";
+        console.log("Click");
+    }
+
+</script>
+
+</body>
+</html>
